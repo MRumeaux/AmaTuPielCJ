@@ -10,20 +10,141 @@ font-family: "Caveat", cursive;
 
 /* INICIALIZO VARIABLES */
 :root{
+    /* VARIABLES MOBILE */
     --bg-slogan-recib-color: #FBE4FF;
     --bg-nav-bar-color: #BC98FF;
     --bg-intro-prods-color: #F2DAFF;
     --bg-barra-titulos-y-catalogos: #D7B8FF;
-    --bg-pie-pagina: #000;
+    --bg-pie-pagina: #000000;
+    --bg-blanco-secciones-especificas: #ffffff;
+    --bg-index-link-trio-botoneras: #BC98FF;
+    --bg-presenta-marca: #E9CFFF;
     --font-intro-slogan: "Caveat", cursive;
     --font-general: "Roboto", sans-serif;
+    --font-pie-de-pagina: "Rosario", sans-serif;
+    --font-size-general-mobile: 16px;
+    --font-size-titulos-mobile: 24px;
 }
+
+/* CLASES GENERALES Y GENÉRICAS */
+
+.negrita{
+    font: bolder;
+}
+
+.acomodoTextoYElementos{
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    height: 100%;
+}
+
+.tamanoFont{
+    font-size: var(--font-size-general-mobile);
+}
+
+.estiloFont{
+    font-family: var(--font-general);
+    color:#000000;
+}
+
+.textoBlanco{
+    color: #ffffff;
+    text-shadow:#000000;
+}
+
+
 
 /* CSS INDEX */
 
-.sloganRecimiento{
-    height: 25px;
+
+
+.sloganRecibimiento{
+    height: 30px;
     background-color: var(--bg-slogan-recib-color);
     font-family: var(--font-intro-slogan);
-    
+    font-size: var(--font-size-titulos);
+}
+
+.textoRecibimiento{
+    height: 120px;
+    background-color: var(--bg-blanco-secciones-especificas);
+    font-size: 10px;
+}
+
+.barraNav{
+    height: 30px;
+    background-color: var(--bg-nav-bar-color);
+    font-size: 18px;
+}
+
+
+.presentacionMarca{
+    height: 200px;
+    background-color: var(--bg-presenta-marca);
+    background-image: url(../assets/waves.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.presentacionMarca img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.textoPresentacion{
+    font-size: 14px;
+}
+
+.introProductos{
+    height: 36;
+    background-color: var(--bg-intro-prods-color);
+    font-size: 12px;
+}
+
+.indexLinkBotonera{
+    height: 180px;
+    background-color: var(--bg-index-link-trio-botoneras);
+    font-size: 14px;
+}
+
+.indexLinkTips{
+    height: 120px;
+    background-color: var(--bg-barra-titulos-y-catalogos);
+}
+
+.sobreNosotros{
+    height: 240px;
+    background-image: url(../assets/Sobre-nosotros.png);
+    background-size: cover;
+}
+
+.encabezadoSobreNos{
+    height: 72px;
+    font-size: var(--font-size-titulos-mobile);
+}
+
+.textoSobreNos{
+    height: 168px;
+}
+
+.recordatorioRRSSParaPromos{
+    height: 240px;
+    background-image: url(../assets/incitar-redes.png);
+    background-size: cover;
+}
+
+.pieDePagina{
+    height: 120px;
+    background-color: var(--bg-pie-pagina);
+    font-family: var(--font-pie-de-pagina);
+    font-size: 24px;
+}
+
+.pieDePagina img{
+    height: 40px;
+    width: 40px;
 }
