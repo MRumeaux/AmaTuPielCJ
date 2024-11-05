@@ -8,6 +8,14 @@ font-family: "Roboto", sans-serif;
 font-family: "Caveat", cursive;
 */
 
+/*
+XS
+SM
+MD
+LG
+XL
+*/
+
 /* INICIALIZO VARIABLES */
 :root{
     /* VARIABLES MOBILE */
@@ -24,6 +32,7 @@ font-family: "Caveat", cursive;
     --font-pie-de-pagina: "Rosario", sans-serif;
     --font-size-general-mobile: 16px;
     --font-size-titulos-mobile: 24px;
+    --bg-img-fondo-waves: url(../assets/waves.svg);
 }
 
 /* CLASES GENERALES Y GENÉRICAS */
@@ -54,14 +63,18 @@ font-family: "Caveat", cursive;
     text-shadow:#000000;
 }
 
-
+.fondoPresentacionMarcasYTips{
+    background-color: var(--bg-presenta-marca);
+    background-image: var(--bg-img-fondo-waves);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
 
 /* CSS INDEX */
 
-
-
 .sloganRecibimiento{
-    height: 30px;
+    height: 36px;
     background-color: var(--bg-slogan-recib-color);
     font-family: var(--font-intro-slogan);
     font-size: var(--font-size-titulos);
@@ -79,14 +92,8 @@ font-family: "Caveat", cursive;
     font-size: 18px;
 }
 
-
 .presentacionMarca{
     height: 200px;
-    background-color: var(--bg-presenta-marca);
-    background-image: url(../assets/waves.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
 }
 
 .presentacionMarca img{
@@ -147,4 +154,15 @@ font-family: "Caveat", cursive;
 .pieDePagina img{
     height: 40px;
     width: 40px;
+}
+
+/* CSS MARCAS */
+
+.contenedorMarcas{
+    height: 180;
+}
+
+.logoMarca{
+    height: 100%;
+    max-height: 100%;
 }
