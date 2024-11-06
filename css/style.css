@@ -41,8 +41,11 @@ XL
     font: bolder;
 }
 
+.deployFlex{
+    display: flex;
+}
+
 .acomodoTextoYElementos{
-    /*display: flex;*/
     align-items: center;
     text-align:center;
     justify-content: center;
@@ -75,6 +78,14 @@ XL
 .recibimientoCorporalFacialYTips{
     height: 200px;
     background-image: url(../assets/banner_facial_corporal.jpg);
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
 }
 
 /* CSS INDEX */
@@ -177,18 +188,41 @@ XL
     font-size: var(--font-size-titulos-mobile)
 }
 
-.logoMarca{
-    border-radius: 100px;
-}
-
 .logoMarca img{
     height: 75px;
     width: 75px;
+    border-radius: 100px;
 }
 
 .botonCatalogoMarcas img{
     height: 50px;
     width: 200px;
+}
+
+
+/* CCS FACIAL + CORPORAL*/ 
+
+.itemLinkCorporalFacial{
+    height: 100px;
+    background-color: var(--bg-blanco-secciones-especificas);
+}
+
+.itemLinkCorporalFacial a{
+    font-size: var(--font-size-general-mobile);
+}
+
+/*
+.barraMensajePreProductos{
+    height: 60px;
+}*/
+
+.barraCategoriaProductos{
+    height: 30px;
+    background-color: var(--bg-barra-titulos-y-catalogos);
+}
+
+.carruselProductos{
+    height: 100px;
 }
 
 /* CSS TIPS */

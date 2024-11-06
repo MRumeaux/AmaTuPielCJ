@@ -6,4 +6,4 @@ Se intenta en esta pasada tener en consideración el armado Mobile First, siendo
 
 proto-primer-ajuste-css-para-index: Se intenta dar formato inicial a versión mobile. Se generan boxes para estandarizar y reutilizar en otras páginas del sitio. Se intentan aplicar clases en función a metodología BEM, entendiendo clases genéricas e insertando múltiples clases dentro de un mismo div para no repetir CSS. No se aplican mediaquerys de momento.
 
-proto-crear-css-tips-y-marcas: en un primer guardado dí formato css a marcas y ajusté responsibidad a elementos para las versiones de ventana con bootstrap. 
+proto-crear-css-tips-y-marcas: en un primer guardado dí formato css a marcas + tips y ajusté responsibidad a elementos para las versiones de ventana con bootstrap. 
