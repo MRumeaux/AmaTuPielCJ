@@ -30,8 +30,8 @@ XL
     --font-intro-slogan: "Caveat", cursive;
     --font-general: "Roboto", sans-serif;
     --font-pie-de-pagina: "Rosario", sans-serif;
-    --font-size-general-mobile: 16px;
-    --font-size-titulos-mobile: 24px;
+    --font-size-general-mobile: 10px;
+    --font-size-titulos-mobile: 16px;
     --bg-img-fondo-waves: url(../assets/waves.svg);
 }
 
@@ -42,7 +42,7 @@ XL
 }
 
 .acomodoTextoYElementos{
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     text-align:center;
     justify-content: center;
@@ -69,6 +69,12 @@ XL
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
+    height: 250px;
+}
+
+.recibimientoCorporalFacialYTips{
+    height: 200px;
+    background-image: url(../assets/banner_facial_corporal.jpg);
 }
 
 /* CSS INDEX */
@@ -156,13 +162,34 @@ XL
     width: 40px;
 }
 
+
 /* CSS MARCAS */
 
 .contenedorMarcas{
     height: 180;
 }
 
-.logoMarca{
-    height: 100%;
-    max-height: 100%;
+.contenedorMarcas p{
+    font-size: var(--font-size-general-mobile);
 }
+
+.tituloMarca h1{
+    font-size: var(--font-size-titulos-mobile)
+}
+
+.logoMarca{
+    border-radius: 100px;
+}
+
+.logoMarca img{
+    height: 75px;
+    width: 75px;
+}
+
+.botonCatalogoMarcas img{
+    height: 50px;
+    width: 200px;
+}
+
+/* CSS TIPS */
+
