@@ -37,12 +37,22 @@ XL
 
 /* CLASES GENERALES Y GENÉRICAS */
 
+main{
+    background-color: var(--bg-presenta-marca);
+}
+
+ul{
+    list-style: none;
+}
+
 .negrita{
     font: bolder;
 }
 
 .deployFlex{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .acomodoTextoYElementos{
@@ -67,12 +77,12 @@ XL
 }
 
 .fondoPresentacionMarcasYTips{
-    background-color: var(--bg-presenta-marca);
+    /*background-color: var(--bg-presenta-marca);*/
     background-image: var(--bg-img-fondo-waves);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
-    height: 250px;
+    height:max-content;
 }
 
 .recibimientoCorporalFacialYTips{
@@ -204,11 +214,32 @@ XL
 
 .itemLinkCorporalFacial{
     height: 100px;
-    background-color: var(--bg-blanco-secciones-especificas);
+    flex: 1 1 33%;
+    max-width: 33%;
 }
 
 .itemLinkCorporalFacial a{
     font-size: var(--font-size-general-mobile);
+}
+
+.contenedor-texto-sobre-imagen{
+    position: relative;
+    display: block;
+    /*width: 33%;
+    height: 33%;*/
+}
+
+.contenedor-texto-sobre-imagen img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texto-sobre-imagen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*
@@ -225,5 +256,17 @@ XL
     height: 100px;
 }
 
+.barraCategoriaProductoYEnvioACatalogo{
+    height: 30px;
+    background-color: var(--bg-barra-titulos-y-catalogos);
+}
+
+.barraCategoriaProductoYEnvioACatalogo h2{
+    font-size: var(--font-size-titulos-mobile);
+}
+
 /* CSS TIPS */
 
+.tituloTips h1{
+    font-size: 24px;
+}

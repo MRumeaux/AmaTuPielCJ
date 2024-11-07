@@ -6,4 +6,9 @@ Se intenta en esta pasada tener en consideración el armado Mobile First, siendo
 
 proto-primer-ajuste-css-para-index: Se intenta dar formato inicial a versión mobile. Se generan boxes para estandarizar y reutilizar en otras páginas del sitio. Se intentan aplicar clases en función a metodología BEM, entendiendo clases genéricas e insertando múltiples clases dentro de un mismo div para no repetir CSS. No se aplican mediaquerys de momento.
 
-proto-crear-css-tips-y-marcas: en un primer guardado dí formato css a marcas + tips y ajusté responsibidad a elementos para las versiones de ventana con bootstrap. 
+proto-crear-css-tips-y-marcas: En un primer guardado dí formato css a marcas + tips y ajusté responsibidad a elementos para las versiones de ventana con bootstrap. 
+
+proto-inicial-css-para-corpo-y-facial: Pensando en metodología BEM intento crear pocas clases pero que sean repetitivas. Cuesta un poco dimensionar cuales vale estandarizar, aunque viendo positivamente el asunto generé un wireframe estático muy similar entre categorías.
+actV2: Tuve que ajustar partes del HTML al empezar a implementar algunas clases, me retrasó las cargas de imágenes (todavía pendientes algunas secciones)
+No me agrada como está quedando el contenido CSS pero ya estoy muy justo de tiempos para corregir a cero todo, lo implementaré momentáneamente de esta manera sabiendo que tengo un esqueleto decente de HTML.
+
