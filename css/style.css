@@ -31,10 +31,12 @@ XL
     --font-general: "Roboto", sans-serif;
     --font-pie-de-pagina: "Rosario", sans-serif;
     --font-size-general-mobile: 10px;
-    --font-size-ocacional-1: ;
-    --font-size-ocacional-1: ;
-    --font-size-ocacional-1: ;
+    --font-size-ocacional-1: 12px;
+    --font-size-ocacional-2: 14px;
     --font-size-titulos-mobile: 16px;
+    --font-size-ocacional-3: 18px;
+    --font-size-ocacional-4: 24px;
+    /*--font-size-ocacional-5: ;*/
     --bg-img-fondo-waves: url(../assets/waves.svg);
 }
 
@@ -97,7 +99,7 @@ ul{
 .texto-sobre-imagen {
     position: absolute;
     color: white;
-    font-size: 24px;
+    font-size: var(--font-size-ocacional-4);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
 }
@@ -120,7 +122,7 @@ ul{
 .barraNav{
     height: 30px;
     background-color: var(--bg-nav-bar-color);
-    font-size: 18px;
+    font-size: var(--font-size-ocacional-3);
 }
 
 .presentacionMarca{
@@ -134,19 +136,19 @@ ul{
 }
 
 .textoPresentacion{
-    font-size: 14px;
+    font-size: var(--font-size-ocacional-2);
 }
 
 .introProductos{
-    height: 36;
+    height: 36px;
     background-color: var(--bg-intro-prods-color);
-    font-size: 12px;
+    font-size: var(--font-size-ocacional-1);
 }
 
 .indexLinkBotonera{
     height: 180px;
     background-color: var(--bg-index-link-trio-botoneras);
-    font-size: 14px;
+    font-size: var(--font-size-ocacional-2);
 }
 
 .indexLinkTips{
@@ -155,18 +157,19 @@ ul{
 }
 
 .sobreNosotros{
-    height: 240px;
+    height: 300px;
     background-image: url(../assets/Sobre-nosotros.png);
     background-size: cover;
 }
 
 .encabezadoSobreNos{
-    height: 72px;
+    height: 80px;
     font-size: var(--font-size-titulos-mobile);
 }
 
 .textoSobreNos{
-    height: 168px;
+    height: 220px;
+    font-size: var(--font-size-ocacional-1);
 }
 
 .recordatorioRRSSParaPromos{
@@ -187,7 +190,7 @@ ul{
 }
 
 .contactoPiePagina{
-    font-size: 14px;
+    font-size: var(--font-size-ocacional-2);
 }
 
 
@@ -295,19 +298,255 @@ ul{
 }
 
 
-
 /* CSS TIPS */
 
 .recepcionCorporalFacialTips h1{
-    font-size: 24px;
+    font-size: var(--font-size-ocacional-4);
 }
 
 .recepcionCorporalFacialTips p{
-    font-size: 12px;
+    font-size: var(--font-size-ocacional-1);
     font-style: italic;
 }
 
 .tituloTips h1{
-    font-size: 24px;
+    font-size: var(--font-size-ocacional-4);
 }
 
+@media only screen and (min-width: 481) and (max-width: 1279){
+    :root{
+        /* VARIABLES TABLETS/LAPTOPS */
+        --font-size-general-mobile: 16px;
+        --font-size-ocacional-1: 18px;
+        --font-size-ocacional-2: 22px;
+        --font-size-titulos-mobile: 24px;
+        --font-size-ocacional-3: 28px;
+        --font-size-ocacional-4: 36px;
+    }
+
+
+    .recibimientoCorporalFacialYTips{
+        height: 150px;
+        background-image: url(../assets/banner_facial_corporal.jpg);
+    }
+    
+    
+    /* CSS INDEX */
+    
+    .sloganRecibimiento{
+        height: 54px;
+    }
+    
+    .textoRecibimiento{
+        height: 180px;
+    }
+    
+    .barraNav{
+        height: 45px;
+    }
+    
+    .presentacionMarca{
+        height: 300px;
+    }
+    
+    .presentacionMarca img{
+        height: 225px;
+        width: 225px;
+    }
+    
+    .introProductos{
+        height: 54px;
+    }
+    
+    .indexLinkBotonera{
+        height: 270px;
+    }
+    
+    .indexLinkTips{
+        height: 180px;
+    }
+    
+    .sobreNosotros{
+        height: 450px;
+    }
+    
+    .encabezadoSobreNos{
+        height: 80px;
+    }
+    
+    .textoSobreNos{
+        height: 330px;
+    }
+    
+    .recordatorioRRSSParaPromos{
+        height: 360px;
+    }
+    
+    .pieDePagina{
+        height: 90px;
+    }
+    
+    .pieDePagina img{
+        height: 60px;
+        width: 60px;
+    }
+    
+    
+    /* CSS MARCAS */
+    
+    .contenedorMarcas{
+        height: 270;
+    }
+    
+    .logoMarca img{
+        height: 115px;
+        width: 115px;
+    }
+    
+    .botonCatalogoMarcas img{
+        height: 75px;
+        width: 300px;
+    }
+    
+    
+    /* CCS FACIAL + CORPORAL*/ 
+    
+    
+    .itemLinkCorporalFacial{
+        height: 225px;
+    }
+
+    .barraCategoriaProductos{
+        height: 45px;
+    }
+    
+    .carruselProductos{
+        height: 225px;
+    }
+    
+    .barraCategoriaProductoYEnvioACatalogo{
+        height: 45px;
+    }
+    
+    
+    .NovedadesYLanzamientos{
+        height: 300px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1280){
+    :root{
+        /* VARIABLES TABLETS/LAPTOPS */
+        --font-size-general-mobile: 16px;
+        --font-size-ocacional-1: 18px;
+        --font-size-ocacional-2: 22px;
+        --font-size-titulos-mobile: 24px;
+        --font-size-ocacional-3: 28px;
+        --font-size-ocacional-4: 36px;
+    }
+
+    
+    /* CSS INDEX */
+    
+    .sloganRecibimiento{
+        height: 72px;
+    }
+    
+    .textoRecibimiento{
+        height: 240px;
+    }
+    
+    .barraNav{
+        height: 60px;
+    }
+    
+    .presentacionMarca{
+        height: 400px;
+    }
+    
+    .presentacionMarca img{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .introProductos{
+        height: 72px;
+    }
+    
+    .indexLinkBotonera{
+        height: 360px;
+    }
+    
+    .indexLinkTips{
+        height: 240px;
+    }
+    
+    .sobreNosotros{
+        height: 600px;
+    }
+    
+    .encabezadoSobreNos{
+        height: 160px;
+    }
+    
+    .textoSobreNos{
+        height: 440px;
+    }
+    
+    .recordatorioRRSSParaPromos{
+        height: 480px;
+    }
+    
+    .pieDePagina{
+        height: 120px;
+    }
+    
+    .pieDePagina img{
+        height: 80px;
+        width: 80px;
+    }
+    
+    
+    /* CSS MARCAS */
+    
+    .contenedorMarcas{
+        height: 180;
+    }
+    
+    .logoMarca img{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .botonCatalogoMarcas img{
+        height: 100px;
+        width: 400px;
+    }
+    
+    
+    /* CCS FACIAL + CORPORAL*/ 
+    
+    
+    .itemLinkCorporalFacial{
+        height: 300px;
+    }
+
+    .barraCategoriaProductos{
+        height: 60px;
+    }
+    
+    .carruselProductos{
+        height: 300px;
+    }
+    
+    .barraCategoriaProductoYEnvioACatalogo{
+        height: 60px;
+    }
+    
+    
+    .NovedadesYLanzamientos{
+        height: 400px;
+    }
+}
