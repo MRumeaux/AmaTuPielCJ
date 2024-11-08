@@ -12,3 +12,5 @@ proto-inicial-css-para-corpo-y-facial: Pensando en metodología BEM intento crea
 actV2: Tuve que ajustar partes del HTML al empezar a implementar algunas clases, me retrasó las cargas de imágenes (todavía pendientes algunas secciones)
 No me agrada como está quedando el contenido CSS pero ya estoy muy justo de tiempos para corregir a cero todo, lo implementaré momentáneamente de esta manera sabiendo que tengo un esqueleto decente de HTML.
 
+
+proto-ajuste-imgs-corpo-facial: Se agregan las imagenes, se comprueba una resposibidad del site. Se agregan mediaquerys pero no cumplen su función. Pensé todo como mobile first y salió absolutamente mal; no toma los cambios que serían necesarioas para la versión tablet + desk. En momentos así, solo se puede reír.
