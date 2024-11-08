@@ -31,6 +31,9 @@ XL
     --font-general: "Roboto", sans-serif;
     --font-pie-de-pagina: "Rosario", sans-serif;
     --font-size-general-mobile: 10px;
+    --font-size-ocacional-1: ;
+    --font-size-ocacional-1: ;
+    --font-size-ocacional-1: ;
     --font-size-titulos-mobile: 16px;
     --bg-img-fondo-waves: url(../assets/waves.svg);
 }
@@ -79,21 +82,22 @@ ul{
 .fondoPresentacionMarcasYTips{
     /*background-color: var(--bg-presenta-marca);*/
     background-image: var(--bg-img-fondo-waves);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
     height:max-content;
+    padding: 10px;
 }
 
 .recibimientoCorporalFacialYTips{
-    height: 200px;
+    height: 150px;
     background-image: url(../assets/banner_facial_corporal.jpg);
 }
 
 .texto-sobre-imagen {
     position: absolute;
     color: white;
-    font-size: 1.5rem;
+    font-size: 24px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
 }
@@ -110,7 +114,7 @@ ul{
 .textoRecibimiento{
     height: 120px;
     background-color: var(--bg-blanco-secciones-especificas);
-    font-size: 10px;
+    font-size: var(--font-size-general-mobile);
 }
 
 .barraNav{
@@ -172,15 +176,18 @@ ul{
 }
 
 .pieDePagina{
-    height: 120px;
+    height: 60px;
     background-color: var(--bg-pie-pagina);
     font-family: var(--font-pie-de-pagina);
-    font-size: 24px;
 }
 
 .pieDePagina img{
     height: 40px;
     width: 40px;
+}
+
+.contactoPiePagina{
+    font-size: 14px;
 }
 
 
@@ -212,8 +219,9 @@ ul{
 
 /* CCS FACIAL + CORPORAL*/ 
 
+
 .itemLinkCorporalFacial{
-    height: 100px;
+    height: 150px;
     flex: 1 1 33%;
     max-width: 33%;
 }
@@ -225,8 +233,12 @@ ul{
 .contenedor-texto-sobre-imagen{
     position: relative;
     display: block;
-    /*width: 33%;
-    height: 33%;*/
+    overflow: hidden;
+    align-items: center;
+}
+
+.contenedor-texto-sobre-imagen p{
+    font-size: var(--font-size-general-mobile);
 }
 
 .contenedor-texto-sobre-imagen img{
@@ -253,7 +265,18 @@ ul{
 }
 
 .carruselProductos{
-    height: 100px;
+    height: 150px;
+    flex: 1 1 25%;
+    max-width: 25%;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+}
+
+.carruselProductos img{
+    width: 100%;
+    height: auto;
+    align-items: center;
 }
 
 .barraCategoriaProductoYEnvioACatalogo{
@@ -265,8 +288,26 @@ ul{
     font-size: var(--font-size-titulos-mobile);
 }
 
+.NovedadesYLanzamientos{
+    height: 200px;
+    background-image: url(../assets/novedades.jpg);
+    background-size: cover;
+}
+
+
+
 /* CSS TIPS */
+
+.recepcionCorporalFacialTips h1{
+    font-size: 24px;
+}
+
+.recepcionCorporalFacialTips p{
+    font-size: 12px;
+    font-style: italic;
+}
 
 .tituloTips h1{
     font-size: 24px;
 }
+
