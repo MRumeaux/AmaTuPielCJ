@@ -1,0 +1,643 @@
+/* VARIABLES MOBILE */
+/* VARIABLES TABLETS/LAPTOPS */
+/* VARIABLES DESKTOP */
+/*BREAKPOINTS*/
+/*funciona??*/
+main {
+  background-color: #E9CFFF;
+}
+main ul {
+  list-style: none;
+}
+
+.negrita {
+  font: bolder;
+}
+
+.deployFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.acomodoTextoYElementos {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.tamanoFont {
+  font-size: 10px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .tamanoFont {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .tamanoFont {
+    font-size: 26px;
+  }
+}
+
+.estiloFont {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+.textoBlanco {
+  color: #ffffff;
+  text-shadow: #000000;
+}
+
+.fondoPresentacionMarcasYTips {
+  /*background-color: $bg-presenta-marca;*/
+  background-image: url(../assets/waves.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: max-content;
+  padding: 10px;
+}
+
+.recibimientoCorporalFacialYTips {
+  height: 150px;
+  background-image: url(../assets/banner_facial_corporal.jpg);
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .recibimientoCorporalFacialYTips {
+    height: 225px;
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .recibimientoCorporalFacialYTips {
+    height: 300px;
+    font-size: 26px;
+  }
+}
+
+.texto-sobre-imagen {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .texto-sobre-imagen {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .texto-sobre-imagen {
+    font-size: 58px;
+  }
+}
+
+.pieDePagina {
+  height: 60px;
+  background-color: #000000;
+  font-family: "Rosario", sans-serif;
+}
+.pieDePagina img {
+  height: 40px;
+  width: 40px;
+}
+.pieDePagina .contactoPiePagina {
+  font-size: 14px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .pieDePagina {
+    height: 90px;
+  }
+  .pieDePagina img {
+    height: 60px;
+    width: 60px;
+  }
+  .pieDePagina .contactoPiePagina {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .pieDePagina {
+    height: 120px;
+  }
+  .pieDePagina img {
+    height: 80px;
+    width: 80px;
+  }
+  .pieDePagina .contactoPiePagina {
+    font-size: 36px;
+  }
+}
+
+.barraNav {
+  height: 30px;
+  background-color: #BC98FF;
+  font-size: 18px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .barraNav {
+    height: 45px;
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .barraNav {
+    height: 60px;
+    font-size: 44px;
+  }
+}
+
+a:hover {
+  color: white;
+  font: bolder;
+  border-radius: 5px;
+}
+
+a:active {
+  color: white;
+  font: bolder;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+.sloganRecibimiento {
+  height: 36px;
+  background-color: #FBE4FF;
+  font-family: "Caveat", cursive;
+  font-size: 16px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .sloganRecibimiento {
+    height: 54px;
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .sloganRecibimiento {
+    height: 72px;
+    font-size: 38px;
+  }
+}
+
+.textoRecibimiento {
+  height: 120px;
+  background-color: #ffffff;
+  font-size: 10px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .textoRecibimiento {
+    height: 180px;
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .textoRecibimiento {
+    height: 240px;
+    font-size: 26px;
+  }
+}
+
+.presentacionMarca {
+  height: 200px;
+}
+.presentacionMarca img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .presentacionMarca {
+    height: 300px;
+  }
+  .presentacionMarca img {
+    height: 225px;
+    width: 225px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .presentacionMarca {
+    height: 400px;
+  }
+  .presentacionMarca img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.textoPresentacion {
+  font-size: 14px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .textoPresentacion {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .textoPresentacion {
+    font-size: 36px;
+  }
+}
+
+.introProductos {
+  height: 36px;
+  background-color: #F2DAFF;
+  font-size: 12px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .introProductos {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .introProductos {
+    font-size: 28px;
+  }
+}
+
+.indexLinkBotonera {
+  height: 180px;
+  background-color: #BC98FF;
+  padding: 5px;
+}
+.indexLinkBotonera p {
+  font-size: 14px;
+}
+.indexLinkBotonera img {
+  width: auto;
+  height: 90px;
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+.indexLinkBotonera img:hover {
+  transform: scale(1.15);
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .indexLinkBotonera {
+    height: 240px;
+  }
+  .indexLinkBotonera p {
+    font-size: 22px;
+  }
+  .indexLinkBotonera img {
+    width: auto;
+    height: 135px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .indexLinkBotonera {
+    height: 360px;
+  }
+  .indexLinkBotonera p {
+    font-size: 36px;
+  }
+  .indexLinkBotonera img {
+    width: auto;
+    height: 180px;
+  }
+}
+
+.indexLinkTips {
+  height: 120px;
+  background-color: #D7B8FF;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .indexLinkTips {
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .indexLinkTips {
+    height: 240px;
+  }
+}
+
+.sobreNosotros {
+  height: 300px;
+  background-image: url(../assets/Sobre-nosotros.png);
+  background-size: cover;
+}
+.sobreNosotros .encabezadoSobreNos {
+  height: 80px;
+}
+.sobreNosotros .encabezadoSobreNos h1 {
+  font-size: 16px;
+}
+.sobreNosotros .textoSobreNos {
+  height: 120px;
+}
+.sobreNosotros .textoSobreNos p {
+  font-size: 12px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .sobreNosotros {
+    height: 450px;
+  }
+  .sobreNosotros .encabezadoSobreNos {
+    height: 120px;
+  }
+  .sobreNosotros .encabezadoSobreNos h1 {
+    font-size: 24px;
+  }
+  .sobreNosotros .textoSobreNos {
+    height: 180px;
+  }
+  .sobreNosotros .textoSobreNos p {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .sobreNosotros {
+    height: 600px;
+  }
+  .sobreNosotros .encabezadoSobreNos {
+    height: 160px;
+  }
+  .sobreNosotros .encabezadoSobreNos h1 {
+    font-size: 38px;
+  }
+  .sobreNosotros .textoSobreNos {
+    height: 240px;
+  }
+  .sobreNosotros .textoSobreNos p {
+    font-size: 28px;
+  }
+}
+
+.recordatorioRRSSParaPromos {
+  height: 240px;
+  background-image: url(../assets/incitar-redes.png);
+  background-size: cover;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .recordatorioRRSSParaPromos {
+    height: 360px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .recordatorioRRSSParaPromos {
+    height: 480px;
+  }
+}
+
+.contenedorMarcas {
+  height: 180;
+}
+.contenedorMarcas p {
+  font-size: 10px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .contenedorMarcas {
+    height: 270;
+  }
+  .contenedorMarcas p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .contenedorMarcas {
+    height: 360;
+  }
+  .contenedorMarcas p {
+    font-size: 26px;
+  }
+}
+
+.tituloMarca h1 {
+  font-size: 16px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .tituloMarca h1 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .tituloMarca h1 {
+    font-size: 38px;
+  }
+}
+
+.logoMarca img {
+  height: 75px;
+  width: 75px;
+  border-radius: 100px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .logoMarca img {
+    height: 115px;
+    width: 115px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .logoMarca img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.botonCatalogoMarcas img {
+  height: 50px;
+  width: 200px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .botonCatalogoMarcas img {
+    height: 75px;
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .botonCatalogoMarcas img {
+    height: 100px;
+    width: 400px;
+  }
+}
+
+.recepcionCorporalFacialTips h1 {
+  font-size: 24px;
+}
+.recepcionCorporalFacialTips p {
+  font-size: 12px;
+  font-style: italic;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .recepcionCorporalFacialTips h1 {
+    font-size: 36px;
+  }
+  .recepcionCorporalFacialTips p {
+    font-size: 58px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .recepcionCorporalFacialTips h1 {
+    font-size: 36px;
+  }
+  .recepcionCorporalFacialTips p {
+    font-size: 58px;
+  }
+}
+
+.tituloTips h1 {
+  font-size: 24px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .tituloTips h1 h1 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .tituloTips h1 h1 {
+    font-size: 36px;
+  }
+}
+
+.itemLinkCorporalFacial {
+  height: 150px;
+  flex: 1 1 33%;
+  max-width: 33%;
+}
+.itemLinkCorporalFacial a {
+  font-size: 10px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .itemLinkCorporalFacial {
+    height: 225px;
+  }
+  .itemLinkCorporalFacial a {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .itemLinkCorporalFacial {
+    height: 300px;
+  }
+  .itemLinkCorporalFacial a {
+    font-size: 26px;
+  }
+}
+
+.contenedor-texto-sobre-imagen {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  align-items: center;
+}
+.contenedor-texto-sobre-imagen p {
+  font-size: 10px;
+}
+.contenedor-texto-sobre-imagen img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+.contenedor-texto-sobre-imagen img:hover {
+  transform: scale(1.15);
+  filter: blur(4px) grayscale(50%);
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .contenedor-texto-sobre-imagen p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .contenedor-texto-sobre-imagen p {
+    font-size: 26px;
+  }
+}
+
+.texto-sobre-imagen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.barraCategoriaProductos {
+  height: 30px;
+  background-color: #D7B8FF;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .barraCategoriaProductos {
+    height: 45px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .barraCategoriaProductos {
+    height: 60px;
+  }
+}
+
+.carruselProductos {
+  height: 150px;
+  flex: 1 1 25%;
+  max-width: 25%;
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+.carruselProductos img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+.carruselProductos:hover {
+  transform: scale(1.15);
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .carruselProductos {
+    height: 225px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .carruselProductos {
+    height: 300px;
+  }
+}
+
+.barraCategoriaProductoYEnvioACatalogo {
+  height: 30px;
+  background-color: #D7B8FF;
+}
+.barraCategoriaProductoYEnvioACatalogo h2, .barraCategoriaProductoYEnvioACatalogo a {
+  font-size: 16px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .barraCategoriaProductoYEnvioACatalogo {
+    height: 45px;
+  }
+  .barraCategoriaProductoYEnvioACatalogo h2, .barraCategoriaProductoYEnvioACatalogo a {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .barraCategoriaProductoYEnvioACatalogo {
+    height: 60px;
+  }
+  .barraCategoriaProductoYEnvioACatalogo h2, .barraCategoriaProductoYEnvioACatalogo a {
+    font-size: 38px;
+  }
+}
+
+.NovedadesYLanzamientos {
+  height: 200px;
+  background-image: url(../assets/novedades.jpg);
+  background-size: cover;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .NovedadesYLanzamientos {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .NovedadesYLanzamientos {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+.recepcionCorporalFacialTips {
+    h1{
+        font-size: $font-size-ocacional-4;
+    }
+    p{
+        font-size: $font-size-ocacional-1;
+        font-style: italic;
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        h1{
+            font-size: $font-size-ocacional-tablets-4;
+        }
+        p{
+            font-size: $font-size-ocacional-desktop-4;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        h1{
+            font-size: $font-size-ocacional-tablets-4;
+        }
+        p{
+            font-size: $font-size-ocacional-desktop-4;
+        }
+    }
+}
+
+.tituloTips h1{
+    font-size: $font-size-ocacional-4;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        h1{
+            font-size: $font-size-ocacional-tablets-4;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        h1{
+            font-size: $font-size-ocacional-tablets-4;
+        }
+    }
+}

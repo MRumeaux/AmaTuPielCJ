@@ -14,3 +14,5 @@ No me agrada como está quedando el contenido CSS pero ya estoy muy justo de tie
 
 
 proto-ajuste-imgs-corpo-facial: Se agregan las imagenes, se comprueba una resposibidad del site. Se agregan mediaquerys pero no cumplen su función. Pensé todo como mobile first y salió absolutamente mal; no toma los cambios que serían necesarioas para la versión tablet + desk. En momentos así, solo se puede reír.
+
+proto-adhiero-sass-a-proyecto: Se procede a adherir metodología de referencia a proyecto. A nivel de orden creo haber separado bien los contenidos como así intentar generar nesting de clases. No me convence la repetición del mediaquery dentro de las variables, me resulta incómodo sentir que poniendo las mismas líneas de código pero cambiando apenas algunos detalles. Se ingresan algunas animaciones para imágenes de index y productos plus se da una estilización a las etiquetas a.

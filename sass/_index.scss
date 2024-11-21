@@ -1,0 +1,183 @@
+.sloganRecibimiento{
+    height: 36px;
+    background-color: $bg-slogan-recib-color;
+    font-family: $font-intro-slogan;
+    font-size: $font-size-titulos-mobile;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 54px;
+        font-size: $font-size-titulos-tablets;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 72px;
+        font-size: $font-size-titulos-desktop;
+    }
+}
+
+.textoRecibimiento{
+    height: 120px;
+    background-color: $bg-blanco-secciones-especificas;
+    font-size: $font-size-general-mobile;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 180px;
+        font-size: $font-size-general-tablets;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 240px;
+        font-size: $font-size-general-desktop;
+    }
+}
+
+.presentacionMarca{
+    height: 200px;
+    img{
+        height: 150px;
+        width: 150px;
+        border-radius: 100px;
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 300px;
+        img{
+            height: 225px;
+            width: 225px;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 400px;
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+}
+
+.textoPresentacion{
+    font-size: $font-size-ocacional-2;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        font-size: $font-size-ocacional-tablets-2;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        font-size: $font-size-ocacional-desktop-2;
+    }
+}
+
+.introProductos{
+    height: 36px;
+    background-color: $bg-intro-prods-color;
+    font-size: $font-size-ocacional-1;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        font-size: $font-size-ocacional-tablets-1;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        font-size: $font-size-ocacional-desktop-1;
+    }
+}
+
+.indexLinkBotonera{
+    height: 180px;
+    background-color: $bg-index-link-trio-botoneras;
+    padding: 5px;
+    p{
+        font-size: $font-size-ocacional-2;
+    }
+    img{
+        width: auto;
+        height: 90px;
+        transform: scale(1);
+        transition: all 0.15s ease-in;
+        &:hover{
+            transform: scale(1.15);
+        }
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 240px;
+        p{
+            font-size: $font-size-ocacional-tablets-2;
+        }
+        img{
+            width: auto;
+            height: 135px;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 360px;
+        p{
+            font-size: $font-size-ocacional-desktop-2;
+        }
+        img{
+            width: auto;
+            height: 180px;
+        }
+    }
+}
+
+.indexLinkTips{
+    height: 120px;
+    background-color: $bg-barra-titulos-y-catalogos;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 180px;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 240px;
+    }
+}
+
+.sobreNosotros{
+    height: 300px;
+    background-image: url(../assets/Sobre-nosotros.png);
+    background-size: cover;
+    .encabezadoSobreNos{
+        height: 80px;
+        h1{
+            font-size: $font-size-titulos-mobile;
+        }
+    }
+    .textoSobreNos{
+        height: 120px;
+        p{
+            font-size: $font-size-ocacional-1;
+        }
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 450px;
+        .encabezadoSobreNos{
+            height: 120px;
+            h1{
+                font-size: $font-size-titulos-tablets;
+            }
+        }
+        .textoSobreNos{
+            height: 180px;
+            p{
+                font-size: $font-size-ocacional-tablets-1;
+            }
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 600px;
+        .encabezadoSobreNos{
+            height: 160px;
+            h1{
+                font-size: $font-size-titulos-desktop;
+            }
+        }
+        .textoSobreNos{
+            height: 240px;
+            p{
+                font-size: $font-size-ocacional-desktop-1;
+            }
+        }
+    }
+}
+
+.recordatorioRRSSParaPromos{
+    height: 240px;
+    background-image: url(../assets/incitar-redes.png);
+    background-size: cover;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 360px;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 480px;
+    }
+}
+

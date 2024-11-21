@@ -1,0 +1,55 @@
+.contenedorMarcas{
+    height: 180;
+    p{
+        font-size: $font-size-general-mobile;
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 270;
+        p{
+            font-size: $font-size-general-tablets;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 360;
+        p{
+            font-size: $font-size-general-desktop;
+        }
+    }
+}
+
+.tituloMarca h1{
+    font-size: $font-size-titulos-mobile;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        font-size: $font-size-titulos-tablets;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        font-size: $font-size-titulos-desktop;
+    }
+}
+
+.logoMarca img{
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 115px;
+        width: 115px;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.botonCatalogoMarcas img{
+    height: 50px;
+    width: 200px;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 75px;
+        width: 300px;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 100px;
+        width: 400px;
+    }
+}

@@ -1,0 +1,140 @@
+main{
+    background-color: $bg-presenta-marca;
+    ul{
+        list-style: none;
+    }
+}
+
+.negrita{
+    font: bolder;
+}
+
+.deployFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.acomodoTextoYElementos{
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    height: 100%;
+}
+
+.tamanoFont{
+    font-size: $font-size-general-mobile;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        font-size: $font-size-general-tablets;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        font-size: $font-size-general-desktop;
+    }
+}
+
+.estiloFont{
+    font-family: $font-general;
+    color:#000000;
+}
+
+.textoBlanco{
+    color: #ffffff;
+    text-shadow:#000000;
+}
+
+.fondoPresentacionMarcasYTips{
+    /*background-color: $bg-presenta-marca;*/
+    background-image: $bg-img-fondo-waves;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height:max-content;
+    padding: 10px;
+}
+
+.recibimientoCorporalFacialYTips{
+    height: 150px;
+    background-image: url(../assets/banner_facial_corporal.jpg);
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 225px;
+        font-size: $font-size-general-tablets;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 300px;
+        font-size: $font-size-general-desktop;
+    }
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    color: white;
+    font-size: $font-size-ocacional-4;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        font-size: $font-size-ocacional-tablets-4;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        font-size: $font-size-ocacional-desktop-4;
+    }
+}
+
+.pieDePagina{
+    height: 60px;
+    background-color: $bg-pie-pagina;
+    font-family: $font-pie-de-pagina;
+    img{
+        height: 40px;
+        width: 40px;
+    }
+    .contactoPiePagina{
+        font-size: $font-size-ocacional-2;
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 90px;
+        img{
+            height: 60px;
+            width: 60px;
+        }
+        .contactoPiePagina{
+            font-size: $font-size-ocacional-tablets-2;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 120px;
+        img{
+            height: 80px;
+            width: 80px;
+        }
+        .contactoPiePagina{
+            font-size: $font-size-ocacional-desktop-2;
+        }
+    }
+}
+
+.barraNav{
+    height: 30px;
+    background-color: $bg-nav-bar-color;
+    font-size: $font-size-ocacional-3;
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 45px;
+        font-size: $font-size-ocacional-tablets-3;
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 60px;
+        font-size: $font-size-ocacional-desktop-3;
+    }
+}
+
+a:hover{
+    color: white;
+    font: bolder;
+    border-radius: 5px;
+}
+
+a:active{
+    color: white;
+    font: bolder;
+    border-radius: 5px;
+    background-color: #000000;
+}
