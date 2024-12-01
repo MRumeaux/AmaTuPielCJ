@@ -42,6 +42,27 @@ main{
     text-shadow:#000000;
 }
 
+.sloganRecibimiento{
+    height: 36px;
+    background-color: $bg-slogan-recib-color;
+    font-family: $font-intro-slogan;
+    h1{
+        font-size: $font-size-titulos-mobile;
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        height: 54px;
+        h1{
+            font-size: $font-size-titulos-tablets;
+        }        
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        height: 72px;
+        h1{
+            font-size: $font-size-titulos-desktop;
+        }
+    }
+}
+
 .fondoPresentacionMarcasYTips{
     /*background-color: $bg-presenta-marca;*/
     background-image: $bg-img-fondo-waves;
@@ -116,6 +137,8 @@ main{
     height: 30px;
     background-color: $bg-nav-bar-color;
     font-size: $font-size-ocacional-3;
+    position: sticky;
+    top: 0;
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 45px;
         font-size: $font-size-ocacional-tablets-3;

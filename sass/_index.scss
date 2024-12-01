@@ -1,32 +1,3 @@
-.sloganRecibimiento{
-    height: 36px;
-    background-color: $bg-slogan-recib-color;
-    font-family: $font-intro-slogan;
-    font-size: $font-size-titulos-mobile;
-    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
-        height: 54px;
-        font-size: $font-size-titulos-tablets;
-    }
-    @media only screen and (min-width: $mediaMinDesktop){
-        height: 72px;
-        font-size: $font-size-titulos-desktop;
-    }
-}
-
-.textoRecibimiento{
-    height: 120px;
-    background-color: $bg-blanco-secciones-especificas;
-    font-size: $font-size-general-mobile;
-    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
-        height: 180px;
-        font-size: $font-size-general-tablets;
-    }
-    @media only screen and (min-width: $mediaMinDesktop){
-        height: 240px;
-        font-size: $font-size-general-desktop;
-    }
-}
-
 .presentacionMarca{
     height: 200px;
     img{

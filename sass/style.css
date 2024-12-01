@@ -51,6 +51,31 @@ main ul {
   text-shadow: #000000;
 }
 
+.sloganRecibimiento {
+  height: 36px;
+  background-color: #FBE4FF;
+  font-family: "Caveat", cursive;
+}
+.sloganRecibimiento h1 {
+  font-size: 16px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+  .sloganRecibimiento {
+    height: 54px;
+  }
+  .sloganRecibimiento h1 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .sloganRecibimiento {
+    height: 72px;
+  }
+  .sloganRecibimiento h1 {
+    font-size: 38px;
+  }
+}
+
 .fondoPresentacionMarcasYTips {
   /*background-color: $bg-presenta-marca;*/
   background-image: url(../assets/waves.svg);
@@ -137,6 +162,8 @@ main ul {
   height: 30px;
   background-color: #BC98FF;
   font-size: 18px;
+  position: sticky;
+  top: 0;
 }
 @media only screen and (min-width: 481px) and (max-width: 1279px) {
   .barraNav {
@@ -162,43 +189,6 @@ a:active {
   font: bolder;
   border-radius: 5px;
   background-color: #000000;
-}
-
-.sloganRecibimiento {
-  height: 36px;
-  background-color: #FBE4FF;
-  font-family: "Caveat", cursive;
-  font-size: 16px;
-}
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
-  .sloganRecibimiento {
-    height: 54px;
-    font-size: 24px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .sloganRecibimiento {
-    height: 72px;
-    font-size: 38px;
-  }
-}
-
-.textoRecibimiento {
-  height: 120px;
-  background-color: #ffffff;
-  font-size: 10px;
-}
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
-  .textoRecibimiento {
-    height: 180px;
-    font-size: 16px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .textoRecibimiento {
-    height: 240px;
-    font-size: 26px;
-  }
 }
 
 .presentacionMarca {
