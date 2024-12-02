@@ -6,6 +6,13 @@
     a{
         font-size: $font-size-general-mobile;
     }
+    transform: scale(1);
+    transition: all 0.15s ease-in;
+    &:hover{
+        transform: scale(1.15);
+        filter: blur(4px) grayscale(50%);
+
+    }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 225px;
         a{
@@ -32,13 +39,6 @@
         width: 100%;
         height: auto;
         display: block;
-        transform: scale(1);
-        transition: all 0.15s ease-in;
-        &:hover{
-            transform: scale(1.15);
-            filter: blur(4px) grayscale(50%);
-
-    }
     }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         p{
@@ -126,3 +126,5 @@
         height: 400px;
     }
 }
+
+/* actualizo */

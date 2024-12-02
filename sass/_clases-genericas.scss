@@ -139,6 +139,9 @@ main{
     font-size: $font-size-ocacional-3;
     position: sticky;
     top: 0;
+    a{
+        color: #000;
+    }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 45px;
         font-size: $font-size-ocacional-tablets-3;
