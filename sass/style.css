@@ -174,7 +174,7 @@ main ul {
 }
 .barraNav ul li a::before {
   content: "";
-  border-bottom: 2px solid #000000;
+  border-bottom: 4px solid #000000;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -466,20 +466,22 @@ a:active {
 }
 
 .tituloMarca h1 {
-  font-size: 16px;
+  font-weight: bolder;
+  font-size: 24px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .tituloMarca h1 {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .tituloMarca h1 {
-    font-size: 38px;
+    font-size: 58px;
   }
 }
 
 .logoMarca img {
+  margin: 10px;
   height: 75px;
   width: 75px;
   border-radius: 100px;
@@ -492,14 +494,24 @@ a:active {
 }
 @media only screen and (min-width: 1280px) {
   .logoMarca img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
   }
 }
 
+.botonCatalogoMarcas {
+  background-color: transparent;
+}
 .botonCatalogoMarcas img {
+  margin: 10px;
   height: 50px;
   width: 200px;
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+.botonCatalogoMarcas img:active {
+  transform: scale(0.95);
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .botonCatalogoMarcas img {

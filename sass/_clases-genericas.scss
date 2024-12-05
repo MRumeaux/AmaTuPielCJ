@@ -148,7 +148,7 @@ main{
                 position: relative;
                 &::before{
                     content: '';
-                    border-bottom: 2px solid $font-color-enlaces;
+                    border-bottom: 4px solid $font-color-enlaces;
                     position: absolute;
                     bottom: 0;
                     left: 0;
