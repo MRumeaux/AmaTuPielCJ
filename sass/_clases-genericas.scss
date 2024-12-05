@@ -150,7 +150,7 @@ main{
                     content: '';
                     border-bottom: 4px solid $font-color-enlaces;
                     position: absolute;
-                    bottom: 0;
+                    bottom: -4px;
                     left: 0;
                     width: 0%;
                     transition: all 0.15s ease-in;

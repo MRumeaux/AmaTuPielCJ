@@ -30,7 +30,7 @@
     margin: 10px;
     a{
         color: $font-color-enlaces;
-        font-size: $font-size-general-mobile;
+        font-size: $font-size-titulos-mobile;
         text-decoration: none;
         position: relative;
         &::before{
@@ -58,12 +58,12 @@
     }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         a{
-            font-size: $font-size-general-tablets;
+            font-size: $font-size-titulos-tablets;
         }
     }
     @media only screen and (min-width: $mediaMinDesktop){
         a{
-            font-size: $font-size-general-desktop;
+            font-size: $font-size-titulos-desktop;
         }
     }
 }
@@ -71,16 +71,31 @@
 .tituloTips{
     margin: 10px;
     h2{
-        font-size: $font-size-titulos-mobile;
+        font-size: $font-size-ocacional-4;
         font-weight: bolder;
     }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         h2{
-            font-size: $font-size-titulos-tablets;
+            font-size: $font-size-ocacional-tablets-4;
         }
     }
     @media only screen and (min-width: $mediaMinDesktop){
         h2{
+            font-size: $font-size-ocacional-desktop-4;
+        }
+    }
+    
+    h3{
+        font-size: $font-size-titulos-mobile;
+        font-weight: bolder;
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        h3{
+            font-size: $font-size-titulos-tablets;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        h3{
             font-size: $font-size-titulos-desktop;
         }
     }

@@ -37,7 +37,7 @@ main ul {
 }
 @media only screen and (min-width: 1280px) {
   .tamanoFont {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
@@ -72,7 +72,7 @@ main ul {
     height: 72px;
   }
   .sloganRecibimiento h1 {
-    font-size: 38px;
+    font-size: 28px;
   }
 }
 
@@ -99,7 +99,7 @@ main ul {
 @media only screen and (min-width: 1280px) {
   .recibimientoCorporalFacialYTips {
     height: 300px;
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
@@ -117,7 +117,7 @@ main ul {
 }
 @media only screen and (min-width: 1280px) {
   .texto-sobre-imagen {
-    font-size: 58px;
+    font-size: 40px;
   }
 }
 
@@ -154,7 +154,7 @@ main ul {
     width: 80px;
   }
   .pieDePagina .contactoPiePagina {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 
@@ -176,7 +176,7 @@ main ul {
   content: "";
   border-bottom: 4px solid #000000;
   position: absolute;
-  bottom: 0;
+  bottom: -4px;
   left: 0;
   width: 0%;
   transition: all 0.15s ease-in;
@@ -203,7 +203,7 @@ main ul {
     height: 60px;
   }
   .barraNav ul li a {
-    font-size: 38px;
+    font-size: 28px;
   }
 }
 
@@ -258,7 +258,7 @@ a:active {
 }
 @media only screen and (min-width: 1280px) {
   .textoPresentacion {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 
@@ -275,7 +275,7 @@ a:active {
 }
 @media only screen and (min-width: 1280px) {
   .introProductos {
-    font-size: 28px;
+    font-size: 20px;
     height: 72px;
   }
 }
@@ -318,7 +318,7 @@ a:active {
     height: 360px;
   }
   .indexLinkBotonera p {
-    font-size: 36px;
+    font-size: 24px;
   }
   .indexLinkBotonera img {
     width: auto;
@@ -348,7 +348,7 @@ a:active {
     height: 240px;
   }
   .indexLinkTips a {
-    font-size: 38px;
+    font-size: 28px;
   }
 }
 
@@ -394,13 +394,13 @@ a:active {
     height: 150px;
   }
   .sobreNosotros .encabezadoSobreNos h2 {
-    font-size: 44px;
+    font-size: 32px;
   }
   .sobreNosotros .textoSobreNos {
     height: 450px;
   }
   .sobreNosotros .textoSobreNos p {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
@@ -425,7 +425,7 @@ a:active {
     height: 480px;
   }
   .recordatorioRRSSParaPromos p {
-    font-size: 38px;
+    font-size: 28px;
   }
 }
 
@@ -461,7 +461,7 @@ a:active {
     height: 360;
   }
   .contenedorMarcas p {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
@@ -476,7 +476,7 @@ a:active {
 }
 @media only screen and (min-width: 1280px) {
   .tituloMarca h1 {
-    font-size: 58px;
+    font-size: 40px;
   }
 }
 
@@ -544,10 +544,10 @@ a:active {
 }
 @media only screen and (min-width: 1280px) {
   .recepcionCorporalFacialTips h1 {
-    font-size: 44px;
+    font-size: 32px;
   }
   .recepcionCorporalFacialTips p {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
@@ -556,7 +556,7 @@ a:active {
 }
 .textoTips a {
   color: #000000;
-  font-size: 10px;
+  font-size: 16px;
   text-decoration: none;
   position: relative;
 }
@@ -584,12 +584,12 @@ a:active {
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .textoTips a {
-    font-size: 16px;
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .textoTips a {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 
@@ -597,17 +597,31 @@ a:active {
   margin: 10px;
 }
 .tituloTips h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bolder;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .tituloTips h2 {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .tituloTips h2 {
-    font-size: 38px;
+    font-size: 40px;
+  }
+}
+.tituloTips h3 {
+  font-size: 16px;
+  font-weight: bolder;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .tituloTips h3 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .tituloTips h3 {
+    font-size: 28px;
   }
 }
 
@@ -638,7 +652,7 @@ a:active {
     height: 300px;
   }
   .itemLinkCorporalFacial a {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
@@ -663,7 +677,7 @@ a:active {
 }
 @media only screen and (min-width: 1280px) {
   .contenedor-texto-sobre-imagen p {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
@@ -738,7 +752,7 @@ a:active {
     height: 60px;
   }
   .barraCategoriaProductoYEnvioACatalogo h2, .barraCategoriaProductoYEnvioACatalogo a {
-    font-size: 38px;
+    font-size: 28px;
   }
 }
 
