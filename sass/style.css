@@ -30,7 +30,7 @@ main ul {
 .tamanoFont {
   font-size: 10px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .tamanoFont {
     font-size: 16px;
   }
@@ -59,7 +59,7 @@ main ul {
 .sloganRecibimiento h1 {
   font-size: 16px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .sloganRecibimiento {
     height: 54px;
   }
@@ -90,7 +90,7 @@ main ul {
   height: 150px;
   background-image: url(../assets/banner_facial_corporal.jpg);
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .recibimientoCorporalFacialYTips {
     height: 225px;
     font-size: 16px;
@@ -110,7 +110,7 @@ main ul {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .texto-sobre-imagen {
     font-size: 36px;
   }
@@ -133,7 +133,7 @@ main ul {
 .pieDePagina .contactoPiePagina {
   font-size: 14px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .pieDePagina {
     height: 90px;
   }
@@ -161,23 +161,30 @@ main ul {
 .barraNav {
   height: 30px;
   background-color: #BC98FF;
-  font-size: 18px;
   position: sticky;
   top: 0;
 }
-.barraNav a {
-  color: #000;
+.barraNav ul {
+  list-style-type: none;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+.barraNav a {
+  color: #000000;
+  font-size: 16px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .barraNav {
     height: 45px;
-    font-size: 28px;
+  }
+  .barraNav a {
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .barraNav {
     height: 60px;
-    font-size: 44px;
+  }
+  .barraNav a {
+    font-size: 38px;
   }
 }
 
@@ -202,7 +209,7 @@ a:active {
   width: 150px;
   border-radius: 150px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .presentacionMarca {
     height: 300px;
   }
@@ -224,7 +231,7 @@ a:active {
 .textoPresentacion {
   font-size: 14px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .textoPresentacion {
     font-size: 22px;
   }
@@ -240,14 +247,16 @@ a:active {
   background-color: #F2DAFF;
   font-size: 12px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .introProductos {
     font-size: 18px;
+    height: 54px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .introProductos {
     font-size: 28px;
+    height: 72px;
   }
 }
 
@@ -255,6 +264,9 @@ a:active {
   height: 180px;
   background-color: #BC98FF;
   padding: 5px;
+}
+.indexLinkBotonera a {
+  color: #000000;
 }
 .indexLinkBotonera p {
   font-size: 14px;
@@ -268,7 +280,7 @@ a:active {
 .indexLinkBotonera img:hover {
   transform: scale(1.15);
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .indexLinkBotonera {
     height: 240px;
   }
@@ -297,14 +309,24 @@ a:active {
   height: 120px;
   background-color: #D7B8FF;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+.indexLinkTips a {
+  color: #000000;
+  font-size: 16px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .indexLinkTips {
     height: 180px;
+  }
+  .indexLinkTips a {
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .indexLinkTips {
     height: 240px;
+  }
+  .indexLinkTips a {
+    font-size: 38px;
   }
 }
 
@@ -314,29 +336,29 @@ a:active {
   background-size: cover;
 }
 .sobreNosotros .encabezadoSobreNos {
-  height: 80px;
+  height: 50px;
 }
 .sobreNosotros .encabezadoSobreNos h1 {
   font-size: 16px;
 }
 .sobreNosotros .textoSobreNos {
-  height: 120px;
+  height: 250px;
 }
 .sobreNosotros .textoSobreNos p {
   font-size: 12px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .sobreNosotros {
     height: 450px;
   }
   .sobreNosotros .encabezadoSobreNos {
-    height: 120px;
+    height: 100px;
   }
   .sobreNosotros .encabezadoSobreNos h1 {
     font-size: 24px;
   }
   .sobreNosotros .textoSobreNos {
-    height: 180px;
+    height: 350px;
   }
   .sobreNosotros .textoSobreNos p {
     font-size: 18px;
@@ -347,13 +369,13 @@ a:active {
     height: 600px;
   }
   .sobreNosotros .encabezadoSobreNos {
-    height: 160px;
+    height: 150px;
   }
   .sobreNosotros .encabezadoSobreNos h1 {
     font-size: 38px;
   }
   .sobreNosotros .textoSobreNos {
-    height: 240px;
+    height: 450px;
   }
   .sobreNosotros .textoSobreNos p {
     font-size: 28px;
@@ -365,14 +387,23 @@ a:active {
   background-image: url(../assets/incitar-redes.png);
   background-size: cover;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+.recordatorioRRSSParaPromos p {
+  font-size: 16px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .recordatorioRRSSParaPromos {
     height: 360px;
+  }
+  .recordatorioRRSSParaPromos p {
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .recordatorioRRSSParaPromos {
     height: 480px;
+  }
+  .recordatorioRRSSParaPromos p {
+    font-size: 38px;
   }
 }
 
@@ -382,7 +413,7 @@ a:active {
 .contenedorMarcas p {
   font-size: 10px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .contenedorMarcas {
     height: 270;
   }
@@ -402,7 +433,7 @@ a:active {
 .tituloMarca h1 {
   font-size: 16px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .tituloMarca h1 {
     font-size: 24px;
   }
@@ -418,7 +449,7 @@ a:active {
   width: 75px;
   border-radius: 100px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .logoMarca img {
     height: 115px;
     width: 115px;
@@ -435,7 +466,7 @@ a:active {
   height: 50px;
   width: 200px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .botonCatalogoMarcas img {
     height: 75px;
     width: 300px;
@@ -455,7 +486,7 @@ a:active {
   font-size: 12px;
   font-style: italic;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .recepcionCorporalFacialTips h1 {
     font-size: 36px;
   }
@@ -472,10 +503,13 @@ a:active {
   }
 }
 
+/*
+.textoT
+*/
 .tituloTips h1 {
   font-size: 24px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .tituloTips h1 h1 {
     font-size: 36px;
   }
@@ -490,11 +524,17 @@ a:active {
   height: 150px;
   flex: 1 1 33%;
   max-width: 33%;
+  transform: scale(1);
+  transition: all 0.15s ease-in;
 }
 .itemLinkCorporalFacial a {
   font-size: 10px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+.itemLinkCorporalFacial:hover {
+  transform: scale(1.15);
+  filter: blur(4px) grayscale(50%);
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .itemLinkCorporalFacial {
     height: 225px;
   }
@@ -524,14 +564,8 @@ a:active {
   width: 100%;
   height: auto;
   display: block;
-  transform: scale(1);
-  transition: all 0.15s ease-in;
 }
-.contenedor-texto-sobre-imagen img:hover {
-  transform: scale(1.15);
-  filter: blur(4px) grayscale(50%);
-}
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .contenedor-texto-sobre-imagen p {
     font-size: 16px;
   }
@@ -553,7 +587,7 @@ a:active {
   height: 30px;
   background-color: #D7B8FF;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .barraCategoriaProductos {
     height: 45px;
   }
@@ -582,7 +616,7 @@ a:active {
 .carruselProductos:hover {
   transform: scale(1.15);
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .carruselProductos {
     height: 225px;
   }
@@ -600,7 +634,7 @@ a:active {
 .barraCategoriaProductoYEnvioACatalogo h2, .barraCategoriaProductoYEnvioACatalogo a {
   font-size: 16px;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .barraCategoriaProductoYEnvioACatalogo {
     height: 45px;
   }
@@ -622,7 +656,7 @@ a:active {
   background-image: url(../assets/novedades.jpg);
   background-size: cover;
 }
-@media only screen and (min-width: 481px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .NovedadesYLanzamientos {
     height: 300px;
   }
@@ -632,5 +666,7 @@ a:active {
     height: 400px;
   }
 }
+
+/* actualizo */
 
 /*# sourceMappingURL=style.css.map */

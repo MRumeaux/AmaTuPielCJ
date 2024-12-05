@@ -136,19 +136,26 @@ main{
 .barraNav{
     height: 30px;
     background-color: $bg-nav-bar-color;
-    font-size: $font-size-ocacional-3;
     position: sticky;
     top: 0;
+    ul{
+        list-style-type: none;
+    }
     a{
-        color: #000;
+        color: $font-color-enlaces;
+        font-size: $font-size-titulos-mobile;
     }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 45px;
-        font-size: $font-size-ocacional-tablets-3;
+        a{
+            font-size: $font-size-titulos-tablets;
+        }
     }
     @media only screen and (min-width: $mediaMinDesktop){
         height: 60px;
-        font-size: $font-size-ocacional-desktop-3;
+        a{
+            font-size: $font-size-titulos-desktop;
+        }
     }
 }
 

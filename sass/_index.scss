@@ -37,9 +37,11 @@
     font-size: $font-size-ocacional-1;
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         font-size: $font-size-ocacional-tablets-1;
+        height: 54px;
     }
     @media only screen and (min-width: $mediaMinDesktop){
         font-size: $font-size-ocacional-desktop-1;
+        height: 72px;
     }
 }
 
@@ -47,6 +49,9 @@
     height: 180px;
     background-color: $bg-index-link-trio-botoneras;
     padding: 5px;
+    a{
+        color: $font-color-enlaces;
+    }
     p{
         font-size: $font-size-ocacional-2;
     }
@@ -84,11 +89,21 @@
 .indexLinkTips{
     height: 120px;
     background-color: $bg-barra-titulos-y-catalogos;
+    a{
+        color: $font-color-enlaces;
+        font-size: $font-size-titulos-mobile;
+    }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 180px;
+        a{
+            font-size: $font-size-titulos-tablets;
+        }
     }
     @media only screen and (min-width: $mediaMinDesktop){
         height: 240px;
+        a{
+            font-size: $font-size-titulos-desktop;
+        }
     }
 }
 
@@ -97,13 +112,13 @@
     background-image: url(../assets/Sobre-nosotros.png);
     background-size: cover;
     .encabezadoSobreNos{
-        height: 80px;
+        height: 50px;
         h1{
             font-size: $font-size-titulos-mobile;
         }
     }
     .textoSobreNos{
-        height: 120px;
+        height: 250px;
         p{
             font-size: $font-size-ocacional-1;
         }
@@ -111,13 +126,13 @@
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 450px;
         .encabezadoSobreNos{
-            height: 120px;
+            height: 100px;
             h1{
                 font-size: $font-size-titulos-tablets;
             }
         }
         .textoSobreNos{
-            height: 180px;
+            height: 350px;
             p{
                 font-size: $font-size-ocacional-tablets-1;
             }
@@ -126,13 +141,13 @@
     @media only screen and (min-width: $mediaMinDesktop){
         height: 600px;
         .encabezadoSobreNos{
-            height: 160px;
+            height: 150px;
             h1{
                 font-size: $font-size-titulos-desktop;
             }
         }
         .textoSobreNos{
-            height: 240px;
+            height: 450px;
             p{
                 font-size: $font-size-ocacional-desktop-1;
             }
@@ -144,11 +159,20 @@
     height: 240px;
     background-image: url(../assets/incitar-redes.png);
     background-size: cover;
+    p{
+        font-size: $font-size-titulos-mobile;
+    }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 360px;
+        p{
+            font-size: $font-size-titulos-tablets;
+        }
     }
     @media only screen and (min-width: $mediaMinDesktop){
         height: 480px;
+        p{
+            font-size: $font-size-titulos-desktop;
+        }
     }
 }
 
