@@ -6,7 +6,7 @@ main{
 }
 
 .negrita{
-    font: bolder;
+    font-weight: bolder;
 }
 
 .deployFlex{
@@ -133,28 +133,58 @@ main{
     }
 }
 
+
 .barraNav{
     height: 30px;
     background-color: $bg-nav-bar-color;
-    position: sticky;
-    top: 0;
+    word-spacing: 25px;
     ul{
         list-style-type: none;
-    }
-    a{
-        color: $font-color-enlaces;
-        font-size: $font-size-titulos-mobile;
+        li{
+            a{
+                color: $font-color-enlaces;
+                font-size: $font-size-titulos-mobile;
+                text-decoration: none;
+                position: relative;
+                &::before{
+                    content: '';
+                    border-bottom: 2px solid $font-color-enlaces;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0%;
+                    transition: all 0.15s ease-in;
+                    opacity: 0;
+                }
+                &:hover::before{
+                    width: 100%;
+                    opacity: 1;
+                }
+                &:hover{
+                    color: white;
+                    font: bolder;
+                }
+            }
+        }
     }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 45px;
-        a{
-            font-size: $font-size-titulos-tablets;
+        ul{
+            li{
+                a{
+                    font-size: $font-size-titulos-tablets;
+                }
+            }
         }
     }
     @media only screen and (min-width: $mediaMinDesktop){
         height: 60px;
-        a{
-            font-size: $font-size-titulos-desktop;
+        ul{
+            li{
+                a{
+                    font-size: $font-size-titulos-desktop;
+                }
+            }
         }
     }
 }

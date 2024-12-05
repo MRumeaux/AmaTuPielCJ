@@ -28,7 +28,7 @@
         font-size: $font-size-ocacional-tablets-1;
     }
     @media only screen and (min-width: $mediaMinDesktop){
-        font-size: $font-size-ocacional-desktop-1;
+        font-size: $font-size-ocacional-desktop-2;
     }
 }
 
@@ -52,6 +52,7 @@
     padding: 5px;
     a{
         color: $font-color-enlaces;
+        text-decoration: none;
     }
     p{
         font-size: $font-size-ocacional-2;
@@ -93,6 +94,7 @@
     a{
         color: $font-color-enlaces;
         font-size: $font-size-titulos-mobile;
+        text-decoration: none;
     }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 180px;
@@ -114,8 +116,8 @@
     background-size: cover;
     .encabezadoSobreNos{
         height: 50px;
-        h1{
-            font-size: $font-size-titulos-mobile;
+        h2{
+            font-size: $font-size-ocacional-3;
         }
     }
     .textoSobreNos{
@@ -128,8 +130,8 @@
         height: 450px;
         .encabezadoSobreNos{
             height: 100px;
-            h1{
-                font-size: $font-size-titulos-tablets;
+            h2{
+                font-size: $font-size-ocacional-tablets-3;
             }
         }
         .textoSobreNos{
@@ -143,8 +145,8 @@
         height: 600px;
         .encabezadoSobreNos{
             height: 150px;
-            h1{
-                font-size: $font-size-titulos-desktop;
+            h2{
+                font-size: $font-size-ocacional-desktop-3;
             }
         }
         .textoSobreNos{
@@ -177,3 +179,15 @@
     }
 }
 
+a:hover{
+    color: white;
+    font: bolder;
+    border-radius: 5px;
+}
+
+a:active{
+    color: white;
+    font: bolder;
+    border-radius: 5px;
+    background-color: #000000;
+}

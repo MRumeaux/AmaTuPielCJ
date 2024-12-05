@@ -1,44 +1,87 @@
 .recepcionCorporalFacialTips {
     h1{
-        font-size: $font-size-ocacional-4;
+        font-size: $font-size-ocacional-3;
+        font-weight: bolder;
     }
     p{
-        font-size: $font-size-ocacional-1;
+        font-size: $font-size-general-mobile;
         font-style: italic;
     }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         h1{
-            font-size: $font-size-ocacional-tablets-4;
+            font-size: $font-size-ocacional-tablets-3;
         }
         p{
-            font-size: $font-size-ocacional-desktop-4;
+            font-size: $font-size-general-tablets;
         }
     }
     @media only screen and (min-width: $mediaMinDesktop){
         h1{
-            font-size: $font-size-ocacional-tablets-4;
+            font-size: $font-size-ocacional-desktop-3;
         }
         p{
-            font-size: $font-size-ocacional-desktop-4;
+            font-size: $font-size-general-desktop;
         }
     }
 }
 
 
-/*
-.textoT
-*/
-
-.tituloTips h1{
-    font-size: $font-size-ocacional-4;
+.textoTips{
+    margin: 10px;
+    a{
+        color: $font-color-enlaces;
+        font-size: $font-size-general-mobile;
+        text-decoration: none;
+        position: relative;
+        &::before{
+            content: '';
+            border-bottom: 2px solid $font-color-enlaces;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            transition: all 0.15s ease-in;
+            opacity: 0;
+        }
+        &:hover::before{
+            width: 100%;
+            opacity: 1;
+        }
+        &:active{
+            color: white;
+            background-color: transparent;
+            font: bolder;
+        }
+        &:active::before{
+            opacity: 0;
+        }
+    }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
-        h1{
-            font-size: $font-size-ocacional-tablets-4;
+        a{
+            font-size: $font-size-general-tablets;
         }
     }
     @media only screen and (min-width: $mediaMinDesktop){
-        h1{
-            font-size: $font-size-ocacional-tablets-4;
+        a{
+            font-size: $font-size-general-desktop;
+        }
+    }
+}
+
+.tituloTips{
+    margin: 10px;
+    h2{
+        font-size: $font-size-titulos-mobile;
+        font-weight: bolder;
+    }
+    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+        h2{
+            font-size: $font-size-titulos-tablets;
+        }
+    }
+    @media only screen and (min-width: $mediaMinDesktop){
+        h2{
+            font-size: $font-size-titulos-desktop;
         }
     }
 }

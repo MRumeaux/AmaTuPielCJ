@@ -11,7 +11,7 @@ main ul {
 }
 
 .negrita {
-  font: bolder;
+  font-weight: bolder;
 }
 
 .deployFlex {
@@ -161,21 +161,40 @@ main ul {
 .barraNav {
   height: 30px;
   background-color: #BC98FF;
-  position: sticky;
-  top: 0;
+  word-spacing: 25px;
 }
 .barraNav ul {
   list-style-type: none;
 }
-.barraNav a {
+.barraNav ul li a {
   color: #000000;
   font-size: 16px;
+  text-decoration: none;
+  position: relative;
+}
+.barraNav ul li a::before {
+  content: "";
+  border-bottom: 2px solid #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  transition: all 0.15s ease-in;
+  opacity: 0;
+}
+.barraNav ul li a:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+.barraNav ul li a:hover {
+  color: white;
+  font: bolder;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .barraNav {
     height: 45px;
   }
-  .barraNav a {
+  .barraNav ul li a {
     font-size: 24px;
   }
 }
@@ -183,7 +202,7 @@ main ul {
   .barraNav {
     height: 60px;
   }
-  .barraNav a {
+  .barraNav ul li a {
     font-size: 38px;
   }
 }
@@ -239,7 +258,7 @@ a:active {
 }
 @media only screen and (min-width: 1280px) {
   .textoPresentacion {
-    font-size: 28px;
+    font-size: 36px;
   }
 }
 
@@ -268,6 +287,7 @@ a:active {
 }
 .indexLinkBotonera a {
   color: #000000;
+  text-decoration: none;
 }
 .indexLinkBotonera p {
   font-size: 14px;
@@ -313,6 +333,7 @@ a:active {
 .indexLinkTips a {
   color: #000000;
   font-size: 16px;
+  text-decoration: none;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .indexLinkTips {
@@ -339,8 +360,8 @@ a:active {
 .sobreNosotros .encabezadoSobreNos {
   height: 50px;
 }
-.sobreNosotros .encabezadoSobreNos h1 {
-  font-size: 16px;
+.sobreNosotros .encabezadoSobreNos h2 {
+  font-size: 18px;
 }
 .sobreNosotros .textoSobreNos {
   height: 250px;
@@ -355,8 +376,8 @@ a:active {
   .sobreNosotros .encabezadoSobreNos {
     height: 100px;
   }
-  .sobreNosotros .encabezadoSobreNos h1 {
-    font-size: 24px;
+  .sobreNosotros .encabezadoSobreNos h2 {
+    font-size: 28px;
   }
   .sobreNosotros .textoSobreNos {
     height: 350px;
@@ -372,8 +393,8 @@ a:active {
   .sobreNosotros .encabezadoSobreNos {
     height: 150px;
   }
-  .sobreNosotros .encabezadoSobreNos h1 {
-    font-size: 38px;
+  .sobreNosotros .encabezadoSobreNos h2 {
+    font-size: 44px;
   }
   .sobreNosotros .textoSobreNos {
     height: 450px;
@@ -406,6 +427,19 @@ a:active {
   .recordatorioRRSSParaPromos p {
     font-size: 38px;
   }
+}
+
+a:hover {
+  color: white;
+  font: bolder;
+  border-radius: 5px;
+}
+
+a:active {
+  color: white;
+  font: bolder;
+  border-radius: 5px;
+  background-color: #000000;
 }
 
 .contenedorMarcas {
@@ -481,43 +515,87 @@ a:active {
 }
 
 .recepcionCorporalFacialTips h1 {
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: bolder;
 }
 .recepcionCorporalFacialTips p {
-  font-size: 12px;
+  font-size: 10px;
   font-style: italic;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .recepcionCorporalFacialTips h1 {
-    font-size: 36px;
+    font-size: 28px;
   }
   .recepcionCorporalFacialTips p {
-    font-size: 58px;
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .recepcionCorporalFacialTips h1 {
-    font-size: 36px;
+    font-size: 44px;
   }
   .recepcionCorporalFacialTips p {
-    font-size: 58px;
+    font-size: 26px;
   }
 }
 
-/*
-.textoT
-*/
-.tituloTips h1 {
-  font-size: 24px;
+.textoTips {
+  margin: 10px;
+}
+.textoTips a {
+  color: #000000;
+  font-size: 10px;
+  text-decoration: none;
+  position: relative;
+}
+.textoTips a::before {
+  content: "";
+  border-bottom: 2px solid #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  transition: all 0.15s ease-in;
+  opacity: 0;
+}
+.textoTips a:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+.textoTips a:active {
+  color: white;
+  background-color: transparent;
+  font: bolder;
+}
+.textoTips a:active::before {
+  opacity: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .tituloTips h1 h1 {
-    font-size: 36px;
+  .textoTips a {
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .tituloTips h1 h1 {
-    font-size: 36px;
+  .textoTips a {
+    font-size: 26px;
+  }
+}
+
+.tituloTips {
+  margin: 10px;
+}
+.tituloTips h2 {
+  font-size: 16px;
+  font-weight: bolder;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .tituloTips h2 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .tituloTips h2 {
+    font-size: 38px;
   }
 }
 
