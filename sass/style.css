@@ -636,9 +636,8 @@ a:active {
 
 .itemLinkCorporalFacial {
   height: 150px;
-  /*flex: 1 1 33%;
-  max-width: 33%;*/
-  width: 30%;
+  flex: 1 1 33%;
+  max-width: 33%;
   transform: scale(1);
   transition: all 0.15s ease-in;
 }
