@@ -551,20 +551,16 @@ a:active {
   }
 }
 
-.barraCategoriaProductoYEnvioACatalogo {
-  justify-content: center;
-  text-align: center;
-}
-.barraCategoriaProductoYEnvioACatalogo .textoTips {
+.textoTips {
   margin: 10px;
 }
-.barraCategoriaProductoYEnvioACatalogo .textoTips a {
+.textoTips a {
   color: #000000;
   font-size: 16px;
   text-decoration: none;
   position: relative;
 }
-.barraCategoriaProductoYEnvioACatalogo .textoTips a::before {
+.textoTips a::before {
   content: "";
   border-bottom: 2px solid #000000;
   position: absolute;
@@ -574,65 +570,66 @@ a:active {
   transition: all 0.15s ease-in;
   opacity: 0;
 }
-.barraCategoriaProductoYEnvioACatalogo .textoTips a:hover::before {
+.textoTips a:hover::before {
   width: 100%;
   opacity: 1;
 }
-.barraCategoriaProductoYEnvioACatalogo .textoTips a:active {
+.textoTips a:active {
   color: white;
   background-color: transparent;
   font: bolder;
 }
-.barraCategoriaProductoYEnvioACatalogo .textoTips a:active::before {
+.textoTips a:active::before {
   opacity: 0;
 }
-.barraCategoriaProductoYEnvioACatalogo .textoTips p {
+.textoTips p {
   font-size: 10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .barraCategoriaProductoYEnvioACatalogo .textoTips a {
+  .textoTips a {
     font-size: 24px;
   }
-  .barraCategoriaProductoYEnvioACatalogo .textoTips p {
+  .textoTips p {
     font-size: 16px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .barraCategoriaProductoYEnvioACatalogo .textoTips a {
+  .textoTips a {
     font-size: 28px;
   }
-  .barraCategoriaProductoYEnvioACatalogo .textoTips p {
+  .textoTips p {
     font-size: 18px;
   }
 }
-.barraCategoriaProductoYEnvioACatalogo .tituloTips {
+
+.tituloTips {
   margin: 10px;
 }
-.barraCategoriaProductoYEnvioACatalogo .tituloTips h2 {
+.tituloTips h2 {
   font-size: 24px;
   font-weight: bolder;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .barraCategoriaProductoYEnvioACatalogo .tituloTips h2 {
+  .tituloTips h2 {
     font-size: 36px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .barraCategoriaProductoYEnvioACatalogo .tituloTips h2 {
+  .tituloTips h2 {
     font-size: 40px;
   }
 }
-.barraCategoriaProductoYEnvioACatalogo .tituloTips h3 {
+.tituloTips h3 {
   font-size: 16px;
   font-weight: bolder;
 }
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .barraCategoriaProductoYEnvioACatalogo .tituloTips h3 {
+  .tituloTips h3 {
     font-size: 24px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .barraCategoriaProductoYEnvioACatalogo .tituloTips h3 {
+  .tituloTips h3 {
     font-size: 28px;
   }
 }

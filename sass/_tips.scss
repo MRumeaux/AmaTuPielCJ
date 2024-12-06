@@ -25,9 +25,7 @@
     }
 }
 
-.barraCategoriaProductoYEnvioACatalogo{
-    justify-content: center;
-    text-align: center;
+
     .textoTips{
         margin: 10px;
         a{
@@ -48,6 +46,7 @@
             &:hover::before{
                 width: 100%;
                 opacity: 1;
+
             }
             &:active{
                 color: white;
@@ -111,6 +110,5 @@
             }
         }
     }
-}
 
 
