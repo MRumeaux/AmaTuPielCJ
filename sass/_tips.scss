@@ -25,78 +25,92 @@
     }
 }
 
-
-.textoTips{
-    margin: 10px;
-    a{
-        color: $font-color-enlaces;
-        font-size: $font-size-titulos-mobile;
-        text-decoration: none;
-        position: relative;
-        &::before{
-            content: '';
-            border-bottom: 2px solid $font-color-enlaces;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0%;
-            transition: all 0.15s ease-in;
-            opacity: 0;
-        }
-        &:hover::before{
-            width: 100%;
-            opacity: 1;
-        }
-        &:active{
-            color: white;
-            background-color: transparent;
-            font: bolder;
-        }
-        &:active::before{
-            opacity: 0;
-        }
-    }
-    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+.barraCategoriaProductoYEnvioACatalogo{
+    justify-content: center;
+    text-align: center;
+    .textoTips{
+        margin: 10px;
         a{
-            font-size: $font-size-titulos-tablets;
+            color: $font-color-enlaces;
+            font-size: $font-size-titulos-mobile;
+            text-decoration: none;
+            position: relative;
+            &::before{
+                content: '';
+                border-bottom: 2px solid $font-color-enlaces;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0%;
+                transition: all 0.15s ease-in;
+                opacity: 0;
+            }
+            &:hover::before{
+                width: 100%;
+                opacity: 1;
+            }
+            &:active{
+                color: white;
+                background-color: transparent;
+                font: bolder;
+            }
+            &:active::before{
+                opacity: 0;
+            }
         }
-    }
-    @media only screen and (min-width: $mediaMinDesktop){
-        a{
-            font-size: $font-size-titulos-desktop;
+        p{
+            font-size: $font-size-general-mobile;
         }
-    }
-}
-
-.tituloTips{
-    margin: 10px;
-    h2{
-        font-size: $font-size-ocacional-4;
-        font-weight: bolder;
-    }
-    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
-        h2{
-            font-size: $font-size-ocacional-tablets-4;
+        @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+            a{
+                font-size: $font-size-titulos-tablets;
+            }
+            p{
+                font-size: $font-size-general-tablets;
+            }
         }
-    }
-    @media only screen and (min-width: $mediaMinDesktop){
-        h2{
-            font-size: $font-size-ocacional-desktop-4;
+        @media only screen and (min-width: $mediaMinDesktop){
+            a{
+                font-size: $font-size-titulos-desktop;
+            }
+            p{
+                font-size: $font-size-general-desktop;
+            }
         }
     }
     
-    h3{
-        font-size: $font-size-titulos-mobile;
-        font-weight: bolder;
-    }
-    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
-        h3{
-            font-size: $font-size-titulos-tablets;
+    .tituloTips{
+        margin: 10px;
+        h2{
+            font-size: $font-size-ocacional-4;
+            font-weight: bolder;
         }
-    }
-    @media only screen and (min-width: $mediaMinDesktop){
+        @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+            h2{
+                font-size: $font-size-ocacional-tablets-4;
+            }
+        }
+        @media only screen and (min-width: $mediaMinDesktop){
+            h2{
+                font-size: $font-size-ocacional-desktop-4;
+            }
+        }
+        
         h3{
-            font-size: $font-size-titulos-desktop;
+            font-size: $font-size-titulos-mobile;
+            font-weight: bolder;
+        }
+        @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+            h3{
+                font-size: $font-size-titulos-tablets;
+            }
+        }
+        @media only screen and (min-width: $mediaMinDesktop){
+            h3{
+                font-size: $font-size-titulos-desktop;
+            }
         }
     }
 }
+
+
