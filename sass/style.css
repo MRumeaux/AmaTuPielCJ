@@ -650,6 +650,47 @@ a:active {
 .itemLinkCorporalFacial:hover img {
   filter: blur(4px) grayscale(50%);
 }
+.itemLinkCorporalFacial .contenedor-texto-sobre-imagen {
+  overflow: hidden;
+  position: relative;
+}
+.itemLinkCorporalFacial .contenedor-texto-sobre-imagen p {
+  font-size: 10px;
+  border-radius: 5px;
+}
+.itemLinkCorporalFacial .contenedor-texto-sobre-imagen img {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  top: 50%;
+  left: 50%;
+  width: 125px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .itemLinkCorporalFacial .contenedor-texto-sobre-imagen p {
+    font-size: 16px;
+  }
+  .itemLinkCorporalFacial .contenedor-texto-sobre-imagen img {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .itemLinkCorporalFacial .contenedor-texto-sobre-imagen p {
+    font-size: 18px;
+  }
+  .itemLinkCorporalFacial .contenedor-texto-sobre-imagen img {
+    width: 275px;
+  }
+}
+.itemLinkCorporalFacial .texto-sobre-imagen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .itemLinkCorporalFacial {
     height: 225px;
@@ -665,48 +706,6 @@ a:active {
   .itemLinkCorporalFacial a {
     font-size: 18px;
   }
-}
-
-.contenedor-texto-sobre-imagen {
-  overflow: hidden;
-}
-.contenedor-texto-sobre-imagen p {
-  font-size: 10px;
-  border-radius: 5px;
-}
-.contenedor-texto-sobre-imagen img {
-  margin-top: 13px;
-  margin-bottom: 13px;
-  top: 50%;
-  left: 50%;
-  width: 125px;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .contenedor-texto-sobre-imagen p {
-    font-size: 16px;
-  }
-  .contenedor-texto-sobre-imagen img {
-    width: 200px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .contenedor-texto-sobre-imagen p {
-    font-size: 18px;
-  }
-  .contenedor-texto-sobre-imagen img {
-    width: 275px;
-  }
-}
-
-.texto-sobre-imagen {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .barraCategoriaProductos {
