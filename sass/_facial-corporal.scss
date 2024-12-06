@@ -14,6 +14,49 @@
             filter: blur(4px) grayscale(50%);
         }
     }
+    .contenedor-texto-sobre-imagen{
+        overflow: hidden;
+        position: relative;
+        p{
+            font-size: $font-size-general-mobile;
+            border-radius: 5px;
+        }
+        img{
+            margin-top: 13px;
+            margin-bottom: 13px;
+            top: 50%;
+            left: 50%;
+            width: 125px;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+    
+        }
+        @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
+            p{
+                font-size: $font-size-general-tablets;
+            }
+            img{
+                width: 200px;
+            }
+        }
+        @media only screen and (min-width: $mediaMinDesktop){
+            p{
+                font-size: $font-size-general-desktop;
+            }
+            img{
+                width: 275px;
+            }
+        }
+    }
+    
+    .texto-sobre-imagen{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
         height: 225px;
         a{
@@ -28,48 +71,7 @@
     }
 }
 
-.contenedor-texto-sobre-imagen{
-    overflow: hidden;
-    p{
-        font-size: $font-size-general-mobile;
-        border-radius: 5px;
-    }
-    img{
-        margin-top: 13px;
-        margin-bottom: 13px;
-        top: 50%;
-        left: 50%;
-        width: 125px;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-        border-radius: 10px;
 
-    }
-    @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
-        p{
-            font-size: $font-size-general-tablets;
-        }
-        img{
-            width: 200px;
-        }
-    }
-    @media only screen and (min-width: $mediaMinDesktop){
-        p{
-            font-size: $font-size-general-desktop;
-        }
-        img{
-            width: 275px;
-        }
-    }
-}
-
-.texto-sobre-imagen{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .barraCategoriaProductos{
     width: 100%;
