@@ -733,7 +733,6 @@ a:active {
   justify-content: space-evenly;
 }
 .muestraProductos .carruselProductos {
-  margin-top: 10px;
   height: 150px;
   width: 30%;
   overflow: hidden;
@@ -742,6 +741,7 @@ a:active {
   transition: all 0.15s ease-in;
 }
 .muestraProductos .carruselProductos img {
+  margin-top: 10px;
   width: auto;
   height: 125px;
   border-radius: 5px;
