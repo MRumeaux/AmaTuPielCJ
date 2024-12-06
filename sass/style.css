@@ -639,8 +639,9 @@ a:active {
 
 .itemLinkCorporalFacial {
   height: 150px;
-  flex: 1 1 33%;
-  max-width: 33%;
+  /*flex: 1 1 33%;
+  max-width: 33%;*/
+  width: 30%;
   transform: scale(1);
   transition: all 0.15s ease-in;
 }
@@ -678,7 +679,8 @@ a:active {
   border-radius: 5px;
 }
 .contenedor-texto-sobre-imagen img {
-  margin: 13px;
+  margin-top: 13px;
+  margin-bottom: 13px;
   top: 50%;
   left: 50%;
   width: 125px;
@@ -728,20 +730,22 @@ a:active {
 }
 
 .muestraProductos {
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .muestraProductos .carruselProductos {
   height: 150px;
-  flex: 1 1 25%;
-  max-width: 25%;
+  width: 30%;
   overflow: hidden;
+  align-items: center;
   transform: scale(1);
   transition: all 0.15s ease-in;
 }
 .muestraProductos .carruselProductos img {
   width: auto;
   height: 125px;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
 }
 .muestraProductos .carruselProductos:hover {
   transform: scale(1.15);
@@ -749,6 +753,7 @@ a:active {
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .muestraProductos .carruselProductos {
     height: 225px;
+    width: 20%;
   }
   .muestraProductos .carruselProductos img {
     height: 175px;
@@ -757,6 +762,7 @@ a:active {
 @media only screen and (min-width: 1280px) {
   .muestraProductos .carruselProductos {
     height: 350px;
+    width: 20%;
   }
   .muestraProductos .carruselProductos img {
     height: 275px;

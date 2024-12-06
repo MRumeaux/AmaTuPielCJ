@@ -1,8 +1,9 @@
 
 .itemLinkCorporalFacial{
     height: 150px;
-    flex: 1 1 33%;
-    max-width: 33%;
+    /*flex: 1 1 33%;
+    max-width: 33%;*/
+    width: 30%;
     a{
         font-size: $font-size-general-mobile;
     }
@@ -35,7 +36,8 @@
         border-radius: 5px;
     }
     img{
-        margin: 13px;
+        margin-top: 13px;
+        margin-bottom: 13px;
         top: 50%;
         left: 50%;
         width: 125px;
@@ -81,17 +83,20 @@
         height: 60px;
     }
 }
+
 .muestraProductos{
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     .carruselProductos{
         height: 150px;
-        flex: 1 1 25%;
-        max-width: 25%;
+        width: 30%;
         overflow: hidden;
+        align-items: center;
         img{
             width: auto;
             height: 125px;
+            border-radius: 5px;
+            top: 50%;
+            left: 50%;
         }
         transform: scale(1);
         transition: all 0.15s ease-in;
@@ -100,12 +105,14 @@
         }
         @media only screen and (min-width: $mediaMinTablets) and (max-width: $mediaMaxTablets){
             height: 225px;
+            width: 20%;
             img{
                 height: 175px;
             }
         }
         @media only screen and (min-width: $mediaMinDesktop){
             height: 350px;
+            width: 20%;
             img{
                 height: 275px;
             }
